@@ -1,0 +1,100 @@
+
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 ;
+}
+/* side bar */
+
+#sideBar{
+    background-color: #0D0D0D;
+    height: 100vh;
+    top: 0;
+    left: -250px ;
+    width: 250px;
+    color: #f9f6f6 ;
+    position: fixed; 
+    transition: left 0.5s; 
+
+}
+
+
+.sideBar2{
+    height: 100vh;
+    top: 0;
+    left: 0 ;
+    width: 100px;
+    z-index: 1000;
+    position: fixed;
+    left: 0px; 
+    z-index: 1000;
+    transition: left 0.5s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+
+
+
+.logoImage{
+    width: 50px;
+}
+.sideBar2 i{
+    cursor: pointer;
+   
+    
+}
+
+
+
+.menue-container {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+
+.menue-container  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   top: 50px;
+    color: red;
+    background: #f9f6f6ca;
+     display: none;
+    text-align: center;
+    overflow: hidden;
+    
+    
+}
+
+.menue-container  h1 {
+    position: absolute;
+   
+    left: 0;
+    right: 0;
+    padding: 3px;
+    color: black;
+    background: #f9f6f6ca;
+    
+    display: none;
+    text-align: center;
+    
+}
+
+.menue-container:hover {
+    transform: scale(1.05);
+}
+
+
+
+.colors{
+    cursor: pointer;
+}
+#myData{
+    cursor: pointer;
+}
+
+
+
